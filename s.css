@@ -1,0 +1,61 @@
+body{
+    background-color: brown;
+}
+/*header*/
+.navbar {
+background-color: yellow;
+border: 0;
+border-radius: 0;   
+}
+
+.container{
+    padding-left: 10px;
+    margin: 0;
+    margin-left: 10px;
+}
+/*brand name*/
+
+.navbar-brand {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #557c3e;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+.navbar-toggle{
+    border-color: black;
+}
+
+.text-center{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#chicken{
+    background-color: violet;
+    margin: 10px;
+}
+
+#beef{
+    background-color: yellowgreen;
+    margin: 10px;
+}
+
+#sushi{
+    background-color: aquamarine;
+    margin: 10px;
+}
+#chicken>h3, #beef>h3, #sushi>h3{
+    text-align: center;
+}
